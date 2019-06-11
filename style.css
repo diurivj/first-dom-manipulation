@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #b19cd9;
+  align-items: center;
+  justify-content: center;
+}
+
+#add-todo,
+#todos {
+  margin: 50px;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+li:hover {
+  cursor: pointer;
+}
